@@ -7,8 +7,19 @@ body {
     font-family: "Optima", sans-serif;
     
     background-image: url("images/circuit1.jpg");
+}
 
-    padding: 1rem;
+.flexbox {
+    display: flex;
+    padding: 1em;
+  
+    flex-wrap: wrap;
+    border-radius: 1em;
+    align-items: center;
+    gap: 1rem 5rem; 
+
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 .back-to-top {
@@ -18,6 +29,7 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
+    opacity: 90%;
 }
 
 p {
@@ -31,8 +43,6 @@ p {
     background-color: black;
     opacity: 80%;
 
-    flex-basis: 35%;
-    flex-grow: 1;
     line-height: 1.75;
     text-align: center;
 }
@@ -57,10 +67,8 @@ h1, h2, h3 {
     opacity: 90%;
     font-family: "Optima", sans-serif;
 
-
-    flex-basis: 35%;
-    flex-grow: 1;
     background-color: black;
+    padding: 1rem;
 }
 
 html {
@@ -70,4 +78,6 @@ html {
 footer {
     background-color: black;
     opacity: 90%;
+    padding: 1rem;
+    
 }
