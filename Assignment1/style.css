@@ -6,26 +6,29 @@ body {
     flex-direction: column;
     
     font-family: "Optima", sans-serif;
-    background: rgba(2,0,36,1);
+    background-image: url("images/circuit1.jpg");
 
     padding: 1rem;
 }
 
 p {
-    color: #009bff;
+    color: white;
     
     padding: 1rem;
     letter-spacing: 2px;
     word-spacing: 1px;
     font-size: 18px;
-    
-    opacity: 75%;
+
+    background-color: black;
+    opacity: 80%;
 }
 
 img {
     width: 100%;
-    min-width: 300px;
+    min-width: 200px;
+    max-width: 500px;
     border-radius: 5%;
+    background-color: black;
 
     display: block;
     margin-left: auto;
@@ -37,9 +40,11 @@ img {
 
 h1, h2, h3 {
     text-align: center;
-    color: #009bff;
+    color: white;
+    opacity: 80%;
 
     letter-spacing: 4px;
+    background-color: black;
 }
 
 .back-to-top {
