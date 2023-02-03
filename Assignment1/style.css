@@ -21,11 +21,15 @@ p {
 
     background-color: black;
     opacity: 80%;
+
+    flex-basis: 35%;
+    flex-grow: 1;
+    line-height: 1.75;
+    text-align: center;
 }
 
 img {
     width: 100%;
-    min-width: 200px;
     max-width: 500px;
     border-radius: 5%;
     background-color: black;
@@ -41,10 +45,14 @@ img {
 h1, h2, h3 {
     text-align: center;
     color: white;
-    opacity: 80%;
+    opacity: 90%;
 
     letter-spacing: 4px;
     background-color: black;
+
+    flex-basis: 35%;
+    flex-grow: 1;
+    line-height: 1.75;
 }
 
 .back-to-top {
@@ -61,6 +69,7 @@ html {
 }
 
 footer {
-    background-color: #02001f;
+    background-color: black;
+    opacity: 90%;
     padding: 1rem;
 }
