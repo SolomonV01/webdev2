@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+}
+
+nav>section:first-of-type>ul>li:nth-child(even){
+    background-color: red;
+}
+
+nav>section:first-of-type>ul>li:nth-child(1){
+    background-color: yellow;
+}
+
+nav>section:first-of-type>ul>li:nth-child(7){
+    background-color: green;
+}
+
+nav>section:last-of-type>ul>li:nth-child(1){
+    background-color: purple;
+}
+
+nav>section:last-of-type>ul>li:nth-child(5){
+    background-color: greenyellow;
+}
+
+nav>section:nth-of-type(2)>ul>li:nth-child(4){
+    background-color: aqua;
+    font-size: 20px;
+}
